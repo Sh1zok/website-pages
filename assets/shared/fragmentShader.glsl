@@ -1,6 +1,6 @@
-#define gridSizeMultiplier 10.0
+#define gridSizeMultiplier 5.0
 #define mutationSpeedMultiplier 0.2
-#define brightnessMultiplier 0.2
+#define brightnessMultiplier 0.1
 #define viewportVelocityX 0.1
 #define viewportVelocityY 0.04
 #define randomFactor 0.02
@@ -53,7 +53,7 @@ void mainImage(out vec4 fragColor, in vec2 position) {
     uv += vec2(iTime * viewportVelocityX, iTime * viewportVelocityY);
 
     float pixelBrightness = getBrightness(uv);
-    fragColor = vec4(vec3(pixelBrightness), 1.0);
+    fragColor = vec4(vec3(pixelBrightness / 2.0, pixelBrightness, pixelBrightness), 1.0);
 }
 
 

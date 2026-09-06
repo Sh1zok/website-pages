@@ -6,6 +6,10 @@
     font-family: 'FeatureMono';
     src: url(FeatureMono.ttf)
 }
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(RobotoMono-Bold.ttf)
+}
 
 
 
@@ -91,7 +95,11 @@ article header sup {
     color: #FFFFFF88;
 }
 #content {
-    font-family: FeatureMono, system-ui;
+    font-family: RobotoMono, system-ui;
     color: #FFFFFF;
     margin: 0 5vw 0 5vw;
+}
+#content h2 {
+    font-family: FeatureMono, system-ui;
+    color: #FFFFFF;
 }
