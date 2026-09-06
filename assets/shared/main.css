@@ -44,6 +44,11 @@ body {
 
 
 
+#aside-placeholder {
+    width: max(15vw, 30vh);
+    height: 100%;
+}
+
 aside {
     width: max(15vw, 30vh);
     height: 100vh;
@@ -52,6 +57,7 @@ aside {
     border-radius: 0 20px 20px 0;
     background: #00606080;
     backdrop-filter: blur(20px);
+    position: fixed;
 
 }
 aside header img {
