@@ -53,7 +53,7 @@ void mainImage(out vec4 fragColor, in vec2 position) {
     uv += vec2(iTime * viewportVelocityX, iTime * viewportVelocityY);
 
     float pixelBrightness = getBrightness(uv);
-    fragColor = vec4(vec3(pixelBrightness / 2.0, pixelBrightness, pixelBrightness), 1.0);
+    fragColor = vec4(vec3(pixelBrightness / 2.0, pixelBrightness * 2.0, pixelBrightness * 2.0), 1.0);
 }
 
 
