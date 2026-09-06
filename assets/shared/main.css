@@ -103,5 +103,5 @@ article header sup {
 #content h2 {
     font-family: FeatureMono, system-ui;
     color: #FFFFFF;
-    font-size: max(2vw, 2vh);
+    margin-top: 5vh;
 }
