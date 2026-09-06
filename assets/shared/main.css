@@ -47,6 +47,7 @@ body {
 #aside-placeholder {
     width: max(15vw, 30vh);
     height: 100%;
+    flex-shrink: 0;
 }
 
 aside {
