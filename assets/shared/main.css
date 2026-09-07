@@ -74,13 +74,12 @@ aside main {flex-grow: 1}
     font-size: 1rem;
     margin: 0 1vw 0 1vw;
 }
-#toc li {margin-bottom: 1vh}
+#toc li {margin-bottom: 2.5vh}
 #toc li a {
     text-decoration: none;
     transition: color 0.1s ease;
 }
-#toc li a, #toc li a:link, #toc li a:visited {color: #00d3d3
-}
+#toc li a, #toc li a:link, #toc li a:visited {color: #00d3d3}
 #toc li a:hover {color: #00FFFF}
 aside footer {
     font-family: FeatureMono, system-ui;
