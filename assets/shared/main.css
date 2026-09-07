@@ -19,6 +19,7 @@
     box-sizing: border-box;
     scrollbar-width: thin;
     scrollbar-color: #00FFFF #002222;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {background: #002222}
 ::-webkit-scrollbar-thumb {background-color: #00FFFF}
@@ -98,12 +99,12 @@ aside footer a img:hover {filter: brightness(1)}
 article {flex-grow: 1}
 article header {
     font-family: Sh1zofont, system-ui;
-    color: #CCFFFF;
+    color: #FFFFFF;
     margin: 0 10vw 0 10vw;
 }
 article header sup {
     font-family: FeatureMono, system-ui;
-    color: #CCFFFF88;
+    color: #FFFFFF88;
 }
 #content {
     font-family: RobotoMono, system-ui;
@@ -113,6 +114,6 @@ article header sup {
 }
 #content h2 {
     font-family: FeatureMono, system-ui;
-    color: #CCFFFF;
+    color: #FFFFFF;
     margin-top: 5vh;
 }
