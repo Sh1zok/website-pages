@@ -72,12 +72,14 @@ aside main {flex-grow: 1}
     overflow-y: auto;
     font-family: FeatureMono, system-ui;
     font-size: 1rem;
+    margin: 0 1vw 0 1vw;
 }
 #toc li a {
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.1s ease;
 }
-#toc li a, #toc li a:link, #toc li a:visited {color: #009C9C}
+#toc li a, #toc li a:link, #toc li a:visited {color: #00d3d3
+}
 #toc li a:hover {color: #00FFFF}
 #toc li a:active {color: #FFFFFF}
 aside footer {
@@ -95,6 +97,7 @@ aside footer a img {
     width: max(1.75vw, 3.5vh);
     height: auto;
     filter: brightness(0.611);
+    transition: color 0.1s ease;
 }
 aside footer p {
     text-align: center;
