@@ -3,6 +3,7 @@ layout: page
 title: "Добро пожаловать в Figura"
 description: "Статья о мягком знакомстве с Figura - моде на Minecraft Java"
 tags: [figura, minecraft, java, modding, 4D-skins, article-in-russian]
+toc: true
 ---
 
 ## И вот вы здесь...
