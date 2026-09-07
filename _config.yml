@@ -12,6 +12,7 @@ kramdown:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-toc
 
 exclude:
   - Gemfile
