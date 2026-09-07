@@ -68,10 +68,18 @@ aside header img {
     width: max(13vw, 26vh);
 }
 aside main {flex-grow: 1}
-#aside-toc {
+#table-of-contents {
     overflow-y: auto;
-
+    font-family: FeatureMono, system-ui;
+    font-size: 1rem;
 }
+#toc li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#toc li a, #toc li a:link, #toc li a:visited {color: #009C9C}
+#toc li a:hover {color: #00FFFF}
+#toc li a:active {color: #FFFFFF}
 aside footer {
     font-family: FeatureMono, system-ui;
     color: #009C9C;
