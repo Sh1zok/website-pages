@@ -67,6 +67,10 @@ aside header img {
     width: max(13vw, 26vh);
 }
 aside main {flex-grow: 1}
+#aside-toc {
+    overflow-y: auto;
+
+}
 aside footer {
     font-family: FeatureMono, system-ui;
     color: #009C9C;
