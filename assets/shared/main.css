@@ -70,7 +70,7 @@ aside main {flex-grow: 1}
 aside footer {
     font-family: FeatureMono, system-ui;
     color: #009C9C;
-    margin: 1vw;
+    margin: 1vh 1vw 1vh 1vw;
 }
 aside footer nav {
     display: flex;
@@ -85,7 +85,7 @@ aside footer a img {
 }
 aside footer p {
     text-align: center;
-    font-size: max(0.75vw, 1.5vh);
+    font-size: 0.95rem;
 }
 aside footer a img:hover {filter: brightness(1)}
 
@@ -94,21 +94,21 @@ aside footer a img:hover {filter: brightness(1)}
 article {flex-grow: 1}
 article header {
     font-family: Sh1zofont, system-ui;
-    color: #CCCCCC;
+    color: #CCFFFF;
     margin: 0 10vw 0 10vw;
 }
 article header sup {
     font-family: FeatureMono, system-ui;
-    color: #FFFFFF88;
+    color: #CCFFFF88;
 }
 #content {
     font-family: RobotoMono, system-ui;
     color: #CCCCCC;
     margin: 0 5vw 0 5vw;
-    font-size: max(1.25vw, 1.25vh);
+    font-size: 1rem;
 }
 #content h2 {
     font-family: FeatureMono, system-ui;
-    color: #FFFFFF;
+    color: #CCFFFF;
     margin-top: 5vh;
 }
