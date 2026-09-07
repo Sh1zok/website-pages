@@ -74,6 +74,7 @@ aside main {flex-grow: 1}
     font-size: 1rem;
     margin: 0 1vw 0 1vw;
 }
+#toc li {margin-bottom: 1vh}
 #toc li a {
     text-decoration: none;
     transition: color 0.1s ease;
@@ -132,3 +133,8 @@ article header sup {
     color: #FFFFFF;
     margin-top: 5vh;
 }
+.footnote:link, .footnote:visited {
+    color: #CCCCCC;
+    transition: color 0.1s ease;
+}
+.footnote:hover {color: #FFFFFF}
