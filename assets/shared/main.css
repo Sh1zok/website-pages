@@ -62,17 +62,25 @@ aside {
     position: fixed;
 
 }
+aside header {flex-shrink: 0}
 aside header img {
     margin: max(1vw, 2vh);
     image-rendering: pixelated;
     width: max(13vw, 26vh);
 }
-aside main {flex-grow: 1}
+aside main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 max(1vw, 2vh) 0 max(1vw, 2vh);
+    width: max(13vw, 26vh);
+}
 #table-of-contents {
-    overflow-y: auto;
     font-family: FeatureMono, system-ui;
     font-size: 1rem;
-    margin: 0 1vw 0 1vw;
+    overflow-y: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 #toc li {margin-bottom: 2.5vh}
 #toc li a {
@@ -85,6 +93,7 @@ aside footer {
     font-family: FeatureMono, system-ui;
     color: #009C9C;
     margin: 1vh 1vw 1vh 1vw;
+    flex-shrink: 0;
 }
 aside footer nav {
     display: flex;
