@@ -67,6 +67,7 @@ aside header {flex-shrink: 0}
 aside header img {
     image-rendering: pixelated;
     width: max(13vw, 26vh);
+    margin-bottom: 1vh;
 }
 aside main {
     flex-grow: 1;
