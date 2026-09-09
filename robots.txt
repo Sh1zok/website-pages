@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets
+Disallow: /assets/css
+Disallow: /assets/images
+Disallow: /assets/shared
+
+Sitemap: https://pages.sh1zok.site/sitemap.xml
