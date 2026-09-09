@@ -30,9 +30,7 @@ jobs:
         uses: actions/configure-pages@v4
         
       - name: Build with Jekyll
-        run: bundle exec jekyll build
-        with:
-          source: .
+        run: bundle exec jekyll build --config _config.yml --url "https://pages.sh1zok.site" --baseurl ""
         env:
           JEKYLL_ENV: production
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
