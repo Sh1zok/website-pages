@@ -60,11 +60,11 @@ aside {
     background: #00606080;
     backdrop-filter: blur(20px);
     position: fixed;
+    padding: max(1vw, 2vh)
 
 }
 aside header {flex-shrink: 0}
 aside header img {
-    margin: max(1vw, 2vh);
     image-rendering: pixelated;
     width: max(13vw, 26vh);
 }
@@ -72,7 +72,6 @@ aside main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    margin: 0 max(1vw, 2vh) 0 max(1vw, 2vh);
     width: max(13vw, 26vh);
 }
 #table-of-contents {
@@ -92,7 +91,6 @@ aside main {
 aside footer {
     font-family: FeatureMono, system-ui;
     color: #009C9C;
-    margin: 1vh 1vw 1vh 1vw;
     flex-shrink: 0;
 }
 aside footer nav {
