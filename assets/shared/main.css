@@ -149,5 +149,6 @@ article header sup {
 .footnote:hover {color: #FFFFFF}
 .footnotes {
     margin-top: 10vh;
+    margin-bottom: 20vh;
     font-size: 0.85rem;
 }
