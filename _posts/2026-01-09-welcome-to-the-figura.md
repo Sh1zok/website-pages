@@ -36,7 +36,7 @@ toc: true
 ## Где можно скачать аватары?
 И так, перед тем как начать использовать аватары, нужно понять откуда их брать. Самый большой и достоверный источник аватаров во всём сообществе Figura --- [официальный дискорд самого мода](https://discord.gg/figuramc).
 
-![Дискорд сервер FiguraMC]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figuramc-discord-server.png" | relative_url }})
+![Дискорд сервер FiguraMC]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figuramc-discord-server.png" | absolute_url }})
 
 Так как мы говорим о официальном дискорде сообщества, все аватары загружаемые в [соответствующий форум](https://discord.com/channels/1129805506354085959/1251501433673744394) "avatar-downloads" со временем проверяются модераторами и те аватары, что нарушают правила сообщества, т.е. вредоносны, сексуализированы или просто оскорбительны, удаляются с форума.
 <br><br>
@@ -49,21 +49,21 @@ toc: true
 <br><br>
 После запуска игры нужно открыть свою дерикторию .minecraft[^8] и найти в ней каталог "figura", в этом каталоге переходим в "avatars" и создав здесь отдельную директорию под файлы аватара распаковываем эти самые файлы из .zip-архива в эту самую директорию.
 
-![Пример каталога "avatars"]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/avatars-directory-example.png" | relative_url }})
+![Пример каталога "avatars"]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/avatars-directory-example.png" | absolute_url }})
 
 После этого заходим в одиночный мир или на любой сервер, открываем меню игры на клавишу ESC и если вы сделали всё правильно, в меню должна была появится новая кнопка, которая ведёт в меню Figura.
 
-![Демонстрация кнопки меню Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figura-menu-button.png" | relative_url }})
+![Демонстрация кнопки меню Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figura-menu-button.png" | absolute_url }})
 
 Нажав на эту кнопку, перед вами откроется гардероб. В центральной части меню находится ваш внешний вид, по умолчанию это ваш обычный Minecraft скин. Слева находится меню выбора аватаров, а справа располаается информационная панель.
 <br><br>
 Вверху информационной панели расписывается имя выбранного аватара, кто его создал, и другая техническая информация. Снизу же обычно написано напоминание от создателей мода о запрещённых действиях в сообществе.[^9]
 
-![Демонстрация гардероба Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/wardrobe-demonstration.png" | relative_url }})
+![Демонстрация гардероба Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/wardrobe-demonstration.png" | absolute_url }})
 
 Для того, что-бы экипировать аватар, нажмите на раннее распакованный аватар в левом списке *__И СЕЙЧАС ОЧЕНЬ ВАЖНО__* нажмите на кнопку загрузки аватара в облако(самая левая кнопка внизу). Если не загрузить аватар в облако другие игроки с установленной Figura не смогут увидеть ваш аватар.
 
-![Экипировка аватара]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/equipping-an-avatar.png" | relative_url }})
+![Экипировка аватара]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/equipping-an-avatar.png" | absolute_url }})
 
 ## Готово! 
 Теперь вы знаете как экипирвовать аватар и возможно вы уже так увлечены тестированием своей новой игрушки, что хотите закрыть эту нудную статью и перейти к чистому веселью, но к сожалению у Figura в рукаве припрятана ещё пара вещей о которой нужно знать, что-бы использовать возможности мода на 100 процентов. Об этих воможностях я расскажу в следующей статье [«Колесо действий и меню разрешений Figura»](https://pages.sh1zok.site/figura-action-wheel-and-trust-menu/).

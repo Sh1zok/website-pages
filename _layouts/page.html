@@ -14,6 +14,13 @@
     <meta property="article:tag" content="{{ tag }}">
     {% endfor %}
 
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% endif %}
+
     <link rel="stylesheet" href="/assets/shared/main.css">
     <script type="module" src="/assets/shared/main.js"></script>
     <script type="module" src="/assets/shared/shaderInit.js"></script>
