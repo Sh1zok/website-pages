@@ -143,9 +143,14 @@ article header sup {
 }
 #content ul {padding-left: 2vw}
 #content img {
-    width:60vw;
-    margin: 5vh 0 5vh 0;
+    width: 20vw;
+    margin: 2vh 0 2vh 0;
     border-radius: 10px;
+}
+#content img:hover {
+    width: 60vw;
+    margin: 6vh 0 6vh 0;
+    border-radius: 3px;
 }
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
