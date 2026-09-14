@@ -145,6 +145,7 @@ article header sup {
 #content img {
     width:60vw;
     margin: 5vh 0 5vh 0;
+    border-radius: 10px;
 }
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
