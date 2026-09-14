@@ -150,5 +150,6 @@ article header sup {
 .footnotes {
     margin-top: 10vh;
     margin-bottom: 20vh;
+    padding-left: 2vw;
     font-size: 0.85rem;
 }
