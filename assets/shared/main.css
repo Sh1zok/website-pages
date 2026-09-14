@@ -146,11 +146,12 @@ article header sup {
     width: 20vw;
     margin: 2vh 0 2vh 0;
     border-radius: 10px;
+    transition: color 0.1s ease;
 }
 #content img:hover {
-    width: 60vw;
-    margin: 6vh 0 6vh 0;
-    border-radius: 3px;
+    width: 40vw;
+    margin: 4vh 0 4vh 0;
+    border-radius: 20px;
 }
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
