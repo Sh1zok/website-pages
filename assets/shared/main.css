@@ -142,6 +142,10 @@ article header sup {
     margin-top: 5vh;
 }
 #content ul {padding-left: 2vw}
+#content img {
+    width:60vw;
+    margin: 5vh 0 5vh 0;
+}
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
     transition: color 0.1s ease;

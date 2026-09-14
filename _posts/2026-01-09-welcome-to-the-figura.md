@@ -34,7 +34,7 @@ toc: true
 ## Где можно скачать аватары?
 И так, перед тем как начать использовать аватары, нужно понять откуда их взять. Самый большой и достоверный источник аватаров во всё сообществе Figura --- [официальный дискорд самого мода](https://discord.gg/figuramc).
 
-![Дискорд сервер FiguraMC]({{"/assets/page-images/welcome-to-the-figura/figuramc-discord-server" | relative_url }})
+![Дискорд сервер FiguraMC]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figuramc-discord-server.png" | relative_url }})
 
 
 Так как мы говорим о официальном дискорде сообщества, все аватары загружаемые в [соответствующий форум](https://discord.com/channels/1129805506354085959/1251501433673744394) "avatar-downloads" со временем проверяются модераторами и те аватары, что нарушают правила сообщества(вредоносны, сексуализированы или просто оскорбительны) удаляются с форума.
