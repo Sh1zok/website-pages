@@ -141,8 +141,13 @@ article header sup {
     color: #FFFFFF;
     margin-top: 5vh;
 }
+#content ul {padding-left: 2vw}
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
     transition: color 0.1s ease;
 }
 .footnote:hover {color: #FFFFFF}
+.footnotes {
+    margin-top: 10vh;
+    font-size: 0.85rem;
+}
