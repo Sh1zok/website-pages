@@ -176,11 +176,31 @@ code {
 
 
 @media (max-width: 900px) {
-    aside, #aside-placeholder {display: none}
     .image img {width: 80vw}
     .footnotes {
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
     article h1 {font-size: 1.5rem}
+    body {flex-direction: column}
+    #aside-placeholder {
+        display: block;
+        width: 100vw;
+        height: 10vh;
+    }
+    aside {
+        flex-direction: row;
+        gap: 5vw;
+        width: 100vw;
+        height: 10vh;
+        border-radius: 0 0 10px 10px;
+    }
+    aside main {display: none}
+    aside header img {
+        height: 6vh;
+        width: auto;
+        margin-bottom: 0;
+    }
+    aside footer p {display: none}
+    aside footer a img {filter: brightness(1)}
 }
