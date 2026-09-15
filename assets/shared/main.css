@@ -142,11 +142,6 @@ article header sup {
     margin-top: 5vh;
 }
 #content ul {padding-left: 2vw}
-#content p img {
-    width: 40vw;
-    margin: 4vh 0 4vh 0;
-    border-radius: 20px;
-}
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
     transition: color 0.1s ease;
@@ -157,4 +152,13 @@ article header sup {
     margin-bottom: 20vh;
     padding-left: 2vw;
     font-size: 0.85rem;
+}
+.image {
+    display: grid;
+    margin: 4vh 0 4vh 0;
+}
+.image img {
+    width: 40vw;
+    border-radius: 20px;
+    justify-self: center
 }
