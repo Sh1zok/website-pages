@@ -132,7 +132,7 @@ article header sup {
     font-size: 1rem;
 }
 #content p a:link, #content p a:visited {
-    color: #CCCCCC;
+    color: #00FFFF;
     transition: color 0.1s ease;
 }
 #content p a:hover {color: #FFFFFF}
@@ -140,6 +140,7 @@ article header sup {
     font-family: FeatureMono, system-ui;
     color: #FFFFFF;
     margin-top: 5vh;
+    font-size: 2rem;
 }
 #content ul {padding-left: 2vw}
 .footnote:link, .footnote:visited {
@@ -148,7 +149,7 @@ article header sup {
 }
 .footnote:hover {color: #FFFFFF}
 .footnotes {
-    margin-top: 3vh;
+    margin-top: 10vh;
     margin-bottom: 20vh;
     padding-left: 2vw;
     font-size: 0.85rem;
@@ -161,4 +162,10 @@ article header sup {
     width: 40vw;
     border-radius: 20px;
     justify-self: center
+}
+code {
+    border-radius: 5px;
+    background: #00808080;
+    backdrop-filter: blur(20px);
+    color: #FFFFFF;
 }
