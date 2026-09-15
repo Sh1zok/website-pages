@@ -142,17 +142,10 @@ article header sup {
     margin-top: 5vh;
 }
 #content ul {padding-left: 2vw}
-#content img {
-    width: 20vw;
-    margin: 2vh 0 2vh 0;
-    border-radius: 10px;
-    transition: color 0.1s ease;
-}
-#content img:hover {
+#content p img {
     width: 40vw;
     margin: 4vh 0 4vh 0;
     border-radius: 20px;
-    transition: color 0.1s ease;
 }
 .footnote:link, .footnote:visited {
     color: #CCCCCC;
