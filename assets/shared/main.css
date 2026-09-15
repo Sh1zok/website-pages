@@ -190,12 +190,12 @@ code {
     }
     aside {
         flex-direction: row;
-        gap: 5vw;
+        gap: 0;
         width: 100vw;
         height: 10vh;
         border-radius: 0 0 10px 10px;
     }
-    aside main {display: none}
+    #table-of-contents {display: none}
     aside header img {
         height: 6vh;
         width: auto;
