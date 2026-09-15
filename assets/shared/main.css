@@ -115,7 +115,10 @@ aside footer a img:hover {filter: brightness(1)}
 
 
 
-article {flex-grow: 1}
+article {
+    flex-grow: 1;
+    margin-top: 2vh;
+}
 article header {
     font-family: Sh1zofont, system-ui;
     color: #FFFFFF;
@@ -168,4 +171,16 @@ code {
     background: #00808080;
     backdrop-filter: blur(20px);
     color: #FFFFFF;
+}
+
+
+
+@media (max-width: 900px) {
+    aside, #aside-placeholder {display: none}
+    .image img {width: 80vw}
+    .footnotes {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    article h1 {font-size: 1.5rem}
 }
