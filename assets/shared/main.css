@@ -61,7 +61,6 @@ aside {
     backdrop-filter: blur(20px);
     position: fixed;
     padding: max(1vw, 2vh)
-
 }
 aside header {flex-shrink: 0}
 aside header img {
@@ -194,13 +193,18 @@ code {
         width: 100vw;
         height: 10vh;
         border-radius: 0 0 10px 10px;
+        padding: 1vh;
+        padding-top: 2vh;
     }
-    #table-of-contents {display: none}
+    aside main {display: none}
     aside header img {
         height: 6vh;
         width: auto;
         margin-bottom: 0;
     }
+    aside footer {margin-left: auto}
     aside footer p {display: none}
-    aside footer a img {filter: brightness(1)}
+    aside footer a img {
+        filter: brightness(1)
+    }
 }
