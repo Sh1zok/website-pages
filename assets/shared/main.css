@@ -193,12 +193,15 @@ code {
         width: 100vw;
         height: 10vh;
         border-radius: 0 0 10px 10px;
+        padding: 1vh;
+        padding-top: 2vh;
     }
     #table-of-contents {display: none}
     aside header img {
-        height: 6vh;
+        height: 5vh;
         width: auto;
         margin-bottom: 0;
+        margin-top: 0.5vh;
     }
     aside footer p {display: none}
     aside footer a img {filter: brightness(1)}
