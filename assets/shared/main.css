@@ -61,6 +61,7 @@ aside {
     backdrop-filter: blur(20px);
     position: fixed;
     padding: max(1vw, 2vh);
+    z-index: 1;
 }
 aside header {flex-shrink: 0}
 aside header img {
