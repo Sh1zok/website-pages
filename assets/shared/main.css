@@ -156,11 +156,11 @@ article header sup {
     padding-left: 2vw;
     font-size: 0.85rem;
 }
-.image {
+.media {
     display: grid;
     margin: 4vh 0 4vh 0;
 }
-.image img {
+.media img {
     width: 40vw;
     border-radius: 20px;
     justify-self: center

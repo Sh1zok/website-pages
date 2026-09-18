@@ -36,8 +36,8 @@ toc: true
 ## Где можно скачать аватары?
 Итак, перед тем как начать использовать аватары, нужно понять, откуда их брать. Самый большой и надёжный источник во всём сообществе Figura --- [официальный Discord-сервер самого мода](https://discord.gg/figuramc).
 
-![Дискорд сервер FiguraMC]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figuramc-discord-server.png" | absolute_url }})
-{:.image}
+![Дискорд сервер FiguraMC]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/figuramc-discord-server.png" | absolute_url }})
+{:.media}
 
 Так как мы говорим об официальном дискорде сообщества, все аватары загружаемые в [соответствующий форум](https://discord.com/channels/1129805506354085959/1251501433673744394) «avatar-downloads», со временем проверяются модераторами. Вредоносные, сексуализированые или просто оскорбительные работы, нарушающие правила быстро удаляются.
 <br><br>
@@ -50,46 +50,48 @@ toc: true
 <br><br>
 После запуска игры откройте корневую папку `.minecraft`[^8] и найти в ней каталог `figura`. Внутри него перейдите в папку `avatars`, создайте там отдельную директорию под файлы вашего аватара и распакуйте их туда из .zip-архива.
 
-![Пример каталога "avatars"]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/avatars-directory-example.png" | absolute_url }})
-{:.image}
+![Пример каталога "avatars"]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/avatars-directory-example.png" | absolute_url }})
+{:.media}
 
 После этого заходите в одиночный мир или на любой сервер, открывайте меню игры клавишей ESC. Если вы всё сделали правильно, в меню появится новая кнопка, ведущая в меню Figura.
 
-![Демонстрация кнопки меню Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/figura-menu-button.png" | absolute_url }})
-{:.image}
+![Демонстрация кнопки меню Figura]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/figura-menu-button.png" | absolute_url }})
+{:.media}
 
 При нажатии на неё перед вами откроется гардероб. В центральной части меню отображается ваш текущий внешний вид (по умолчанию это обычный скин Minecraft). Слева находится список для выбора аватаров, а справа --- информационная панель.
 <br><br>
 Вверху информационной панели указано имя выбранного аватара, его авторы и технические данные. Снизу же обычно написано напоминание от создателей мода о запрещённых действиях в сообществе.[^9]
 
-![Демонстрация гардероба Figura]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/wardrobe-demonstration.png" | absolute_url }})
-{:.image}
+![Демонстрация гардероба Figura]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/wardrobe-demonstration.png" | absolute_url }})
+{:.media}
 
 Чтобы экипировать аватар, выберите нужный пункт в левом списке, и --- *__СЕЙЧАС ОЧЕНЬ ВАЖНО__* --- нажмите на кнопку загрузки в облако (самая левая иконка внизу). Если не загрузить аватар в облако, другие игроки с установленной Figura не увидят ваш аватар.
 
-![Экипировка аватара]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/equipping-an-avatar.png" | absolute_url }})
-{:.image}
+![Экипировка аватара]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/equipping-an-avatar.png" | absolute_url }})
+{:.media}
 
 Теперь вы знаете, как экипирвовать аватар. Возможно, вы уже так увлечены тестированием своей новой игрушки, что хотите закрыть эту нудную статью и наконец-то перейти к веселью. Однако, осталось ещё ровно две вещи о которых я хотел бы вам рассказать.
 
 ## О колесе действий
 Зажав клавищу B (на английской раскладке), вы прямо во время игрового процесса можете открыть колесо действий.
 
-![Колесо действий]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/action-wheel.png" | absolute_url }})
-{:.image}
+![Колесо действий]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/action-wheel.png" | absolute_url }})
+{:.media}
 
 В колесе действий находятся... действия. У действий могут быть разные цвета кнопок, иконки и описания. В это колесо попадают различные функции аватара, взаимодейсвие с которыми не сводится к простейшему нажатию горячей клавиши. Такими функциями могут являтся смена костюма, какие-либо анимации или просто настройки аватара.
 
-![Демонстрация применения колеса действий]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/action-wheel-demo.webm" | absolute_url }})
-{:.image}
+<video autoplay loop muted playsinline width="100%">
+  <source src="{{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/action-wheel-demo.webm" | absolute_url }}" type="video/webm">
+</video>
+{:.media}
 
 ## И напоследок...
 Сейчас рассмотрим ещё один элемент меню Figura --- вкладку «Разрешения». [Выше в статье](https://pages.sh1zok.site/welcome-to-the-figura/#%D0%B0-%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-figura) я упоминал систему, которая «не допустит краша игры или падения FPS» если вы играете с человеком, у которого очень ресурсопрожорливый аватар. Это, собственно, она и есть.
 <br><br>
 Зайдя на вкладку, вы увидите экран, разделённый на две части. В левой части находится колонка с именами игроков, подключённых к тому же серверу, что и вы. В правой же части будет отобажатся аватар (или обыкновенный скин) выбранного игрока, а ниже расположится ползунок с уровнями разрешений.
 
-![Меню разрешений]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/permissions-tab.png" | absolute_url }})
-{:.image}
+![Меню разрешений]({{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/permissions-tab.png" | absolute_url }})
+{:.media}
 
 Существует всего 5 уровней разрешений[^10]:
 * **Максимальный** --- аватарам из этой категории дозволено использовать ресурсы компьютера почти без ограничений. Здесь должны находиться аватары только тех людей, которым вы полностью доверяете.
@@ -101,8 +103,10 @@ toc: true
 <br><br>
 Для изменения уровня разрешений любого аватара нужно выбрать игрока в левой колонке и переместить ромб на правом ползунке в нужный режим.
 
-![Изменение режима разрешений]({{"https://pages.sh1zok.site/assets/page-images/welcome-to-the-figura/changing-permissions.webm" | absolute_url }})
-{:.image}
+<video autoplay loop muted playsinline>
+  <source src="{{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/changing-permissions.webm" | absolute_url }}" type="video/webm">
+</video>
+{:.media}
 
 ## Заключение
 Для человека, который только использует уже кем-то созданные аватары, Figura --- прекрасный мод добавляющий умопомрачительные возможности по персонализации своего внутриигрового внешнего вида.
@@ -111,6 +115,7 @@ toc: true
 <br><br>
 Спасибо за внимание! Следующая статья в этом гайде: «Понимание базового устройства Figura».
 
+<br><br>
 ***
 
 [^1]: Клиентский мод --- мод, который устанавливается только на устройство игрока (клиент) и работает локально, не требуя обязательной установки на сервер. Такие моды чаще всего добавляют лишь косметические изменения, не затрагивают механики игры и не добавляют новых блоков, сущностей или предметов. 
