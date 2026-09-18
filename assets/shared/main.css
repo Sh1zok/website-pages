@@ -159,11 +159,12 @@ article header sup {
 .media {
     display: grid;
     margin: 4vh 0 4vh 0;
+    border-radius: 20px;
 }
-.media img, .media video {
+.media img {
     width: 40vw;
     border-radius: 20px;
-    justify-self: center
+    justify-self: center;
 }
 code {
     border-radius: 5px;
@@ -205,4 +206,5 @@ code {
     }
     aside footer p {display: none}
     aside footer a img {filter: brightness(1)}
+    .media img {width: 100%}
 }
