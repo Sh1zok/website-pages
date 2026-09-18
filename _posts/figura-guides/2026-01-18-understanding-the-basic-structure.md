@@ -6,5 +6,5 @@ tags: [figura, minecraft, java, modding, 4D-skins, article-in-russian]
 toc: false
 ---
 
-> Написание статьи в процессе...
-> \- Sh1zok 
+> Написание статьи в процессе...<br>
+> --- Sh1zok 
