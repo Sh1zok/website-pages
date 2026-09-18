@@ -160,7 +160,7 @@ article header sup {
     display: grid;
     margin: 4vh 0 4vh 0;
 }
-.media img {
+.media img, .media video {
     width: 40vw;
     border-radius: 20px;
     justify-self: center
