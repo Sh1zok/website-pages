@@ -2,8 +2,6 @@ title: "Sh1zok's Articles"
 description: "Субдомен сайта Sh1zok для статей."
 author_name: "Sh1zok"
 
-permalink: /:categories/:title/
-
 markdown: kramdown
 kramdown:
   input: GFM
