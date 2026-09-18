@@ -16,8 +16,8 @@ function createShader(gl, type, source) {
 const canvas = document.getElementById('backgroundCanvas');
 const gl = canvas.getContext('webgl');
 
-const vertexShader = createShader(gl, gl.VERTEX_SHADER, await loadShader('../assets/shared/vertexShader.glsl'));
-const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, await loadShader('../assets/shared/fragmentShader.glsl'));
+const vertexShader = createShader(gl, gl.VERTEX_SHADER, await loadShader('../../assets/shared/vertexShader.glsl'));
+const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, await loadShader('../../assets/shared/fragmentShader.glsl'));
 
 const program = gl.createProgram();
 gl.attachShader(program, vertexShader);
