@@ -19,9 +19,14 @@ exclude:
   - .github/
   - README.md
 
+permalink: /:categories/:title/
+
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: "_posts/figura-guides"
     values:
-      permalink: "/:categories/:title/"
+      category: "figura-guides"
+  - scope:
+      path: "_posts/tests"
+    values:
+      category: "tests"
