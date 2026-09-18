@@ -103,7 +103,7 @@ toc: true
 <br><br>
 Для изменения уровня разрешений любого аватара нужно выбрать игрока в левой колонке и переместить ромб на правом ползунке в нужный режим.
 
-<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline width="100%">
   <source src="{{"https://pages.sh1zok.site/assets/pages/welcome-to-the-figura/changing-permissions.webm" | absolute_url }}" type="video/webm">
 </video>
 {:.media}
