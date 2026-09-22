@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /assets
-Disallow: /assets/css
-Disallow: /assets/images
+Disallow: /assets/pages
 Disallow: /assets/shared
+Disallow: /assets/shared/socialLogos
 
 Sitemap: https://pages.sh1zok.site/sitemap.xml
