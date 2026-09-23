@@ -116,4 +116,9 @@ footer p {
 
 @media (max-width: 900px) {
     #search-bar {width: 80vw}
+    #main-container {margin-bottom: 28.5vh}
+    .socialElement img {
+        filter: brightness(0.611);
+        width: 8vw;
+    }
 }
