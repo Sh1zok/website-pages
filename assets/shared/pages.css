@@ -74,18 +74,7 @@ main {
   color: #006060;
   font-style: italic;
 }
-#main-container p a {
-    font-family: FeatureMono, system-ui;
-    color: #009999;
-    text-align: center;
-    font-size: 1rem;
-    text-decoration: none;
-}
-#main-container p a:hover {
-    color: #00FFFF;
-    text-decoration: underline;
-    transition: all 0.3s ease;
-}
+
 
 
 footer {
