@@ -3,5 +3,6 @@ Disallow: /assets
 Disallow: /assets/pages
 Disallow: /assets/shared
 Disallow: /assets/shared/socialLogos
+Disallow: /search.json
 
 Sitemap: https://pages.sh1zok.site/sitemap.xml
