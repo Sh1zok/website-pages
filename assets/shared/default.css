@@ -111,3 +111,9 @@ footer p {
     transition: all 0.3s ease;
 }
 #socialsBlock {margin: 0.5vh 0 5.5vh 0}
+
+
+
+@media (max-width: 900px) {
+    #search-bar {width: 80vw}
+}
