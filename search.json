@@ -8,12 +8,12 @@ layout: null
   {% for post in site.posts %}
     {% unless post.search_exclude %}
       {
-        "title"    : "{{ post.title | escape }}",
-        "category" : "{{ post.category }}",
+        "title"    : "{{ post.title | escape | jsonify }}",
+        "category" : "{{ post.category | }}",
         "tags"     : "{{ post.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ post.url }}",
         "date"     : "{{ post.date }}",
-        "content"  : {{ post.content | strip_html | strip_newlines }}
+        "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
       }{% unless forloop.last %},{% endunless %}
     {% endunless %}
   {% endfor %}
