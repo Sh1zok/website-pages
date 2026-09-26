@@ -46,14 +46,13 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 34.5vh;
-    margin-bottom: 29.5vh;
 }
 #main-container img {
     height: 12.5vh;
     image-rendering: pixelated;
 }
 #search-bar {
-    margin: 2.5vh 0 2.5vh 0;
+    margin: 2.5vh 0 0.5vh 0;
     height: 5vh;
     width: 40vw;
     border: none;
@@ -64,29 +63,38 @@ main {
     font-family: FeatureMono, system-ui;
     padding: 12px 16px;
     font-size: 1rem;
-    
+    transition: all 0.1s ease;
 }
 #search-bar:focus {
-    transition: all 0.3s ease;
     background: #00F0F0F0;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
 }
 #search-bar::placeholder {
-  color: #006060;
-  font-style: italic;
+    color: #006060;
+    font-style: italic;
 }
-#main-container p a {
+#results-container {
+    min-width: 35vw;
+    max-width: 85vw;
+    border-radius: 4vh;
     font-family: FeatureMono, system-ui;
-    color: #009999;
-    text-align: center;
-    font-size: 1rem;
+    list-style: none;
+}
+#results-container li a {
     text-decoration: none;
-}
-#main-container p a:hover {
     color: #00FFFF;
-    text-decoration: underline;
-    transition: all 0.3s ease;
+    display: block;
+    padding: 1.5vh 3vh;
+    border-radius: 3vh;
+    background: #00F0F030;
+    transition: all 0.1s ease;
+    margin-bottom: 0.5vh;
 }
+#results-container li a:hover {
+    background: #00FFFF;
+    color: #000000;
+}
+
 
 
 footer {
@@ -105,20 +113,17 @@ footer p {
     height: auto;
     margin: 0 0.25vw 0 0.25vw;
     filter: brightness(0.611);
-}
-.socialElement img:hover {
-    filter: brightness(1);
     transition: all 0.3s ease;
 }
+.socialElement img:hover {filter: brightness(1)}
 #socialsBlock {margin: 0.5vh 0 5.5vh 0}
 
 
 
 @media (max-width: 900px) {
-    #search-bar {width: 80vw}
-    #main-container {margin-bottom: 28.5vh}
+    #search-bar {width: 90vw}
     .socialElement img {
         filter: brightness(0.611);
-        width: 8vw;
+        width: min(8vw, 4vh);
     }
 }
