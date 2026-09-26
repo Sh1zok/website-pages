@@ -7,6 +7,7 @@ toc: false
     <div id="main-container">
         <a target="_blank" href="https://sh1zok.site/"><img src="/assets/shared/nameplate.png" alt="Sh1zok Pages" id="nameplate"></a>
         <input type="text" id="search-bar" placeholder="So, I'm searching for...">
+        <ul id="results-container"></ul>
     </div>
     <footer>
         <p placeholderName="license">© <a id="this-year">2026</a> Sh1zok, MIT License.</p>
@@ -21,4 +22,17 @@ toc: false
             </nav>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    <script>
+        var searcher = SimpleJekyllSearch({
+            searchInput: document.getElementById('search-bar'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
+            limit: 5,
+            fuzzy: true,
+            exclude: ['hidden-from-search']
+        });
+    </script>
 </main>
