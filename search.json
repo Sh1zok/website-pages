@@ -1,9 +1,6 @@
 ---
 layout: null
 ---
-
-
-
 [
   {% for post in site.posts %}
     {% unless post.search_exclude %}
