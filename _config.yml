@@ -23,10 +23,6 @@ permalink: /:categories/:title/
 
 defaults:
   - scope:
-      path: "_posts"
-    values:
-      category: ""
-  - scope:
       path: "_posts/figura-guides"
     values:
       category: "figura-guides"
