@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sh1zok">
+    <meta name="pseudonym" content="Sh1zok, Шизок, Шизик">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="/assets/shared/favicon.png">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% endif %}
+
+    <link rel="stylesheet" href="/assets/shared/pages.css">
+    <!-- <script type="module" src="/assets/shared/main.js"></script> -->
+    <script type="module" src="/assets/shared/shaderInit.js"></script>
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+
+    <span id="aside-placeholder"></span>
+
+    <aside>
+        <header>
+            <a href="https://pages.sh1zok.site"><img src="/assets/shared/nameplate.png" alt="Sh1zok's Site" id="nameplate"></a>
+        </header>
+        <main>
+            <div id="table-of-contents">
+                {% toc %}
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <a target="_blank" href="https://t.me/Sh1zokWasHere"><img src="/assets/shared/socialLogos/TelegramLogo.png" alt="Telegram"></a>
+                <a target="_blank" href="https://discordapp.com/users/416278117209079809"><img src="/assets/shared/socialLogos/DiscordLogo.png" alt="Discord"></a>
+                <a target="_blank" href="https://github.com/Sh1zok"><img src="/assets/shared/socialLogos/GitHubLogo.png" alt="GitHub"></a>
+                <a target="_blank" href="https://youtube.com/@sh1zok_was_here"><img src="/assets/shared/socialLogos/YouTubeLogo.png" alt="YouTube"></a>
+                <a target="_blank" href="https://namemc.com/profile/Sh1zok"><img src="/assets/shared/socialLogos/NameMCLogo.png" alt="NameMC"></a>
+                <a target="_blank" href="https://modrinth.com/user/Sh1zok"><img src="/assets/shared/socialLogos/ModrinthLogo.png" alt="Modrinth"></a>
+            </nav>
+            <p>© <a id="this-year">2026</a> Sh1zok, MIT License.</p>
+        </footer>
+    </aside>
+
+    <article>
+        <header>
+            <h1>{{ page.title }}</h1>
+            {% for tag in page.tags %}
+            <sup>#{{ tag }}</sup>
+            {% endfor %}
+        </header>
+        <div class="divider"></div>
+        <div id="content">{{ content }}</div>
+    </article>
+</body>
+</html>
