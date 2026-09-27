@@ -4,6 +4,7 @@ title: "Гайд: Объясняю Figura <<на пальцах>>"
 description: "Серия статей для лёгкого входа в Figura --- мода на Minecraft Java"
 tags: [figura, minecraft, java, modding, 4D-skins, guide, tutorial]
 toc: false
+permalink: /figura-guides/index.html
 ---
 
 ## Об этом гайде
