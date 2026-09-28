@@ -35,13 +35,11 @@
 .divider {
     height: 2px;
     background: #9C9C9C;
-    margin: 1vh 5vw 1vh 5vw;
+    margin: 2vh 5vw 2vh 5vw;
 }
 
 
-#header-placeholder {
-    height: min(12vh, 16vw);
-}
+#header-placeholder {height: calc(min(8vh, 10vw) + 6vh)}
 
 header {
     display: flex;
@@ -67,6 +65,43 @@ header nav {
     align-self: center;
 }
 
+article {
+    padding: 0 4vw;
+}
+article h1 {
+    font-family: Sh1zofont, system-ui;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    margin-bottom: 3vh;
+}
+#content {
+    font-family: RobotoMono, system-ui;
+    color: #CCCCCC;
+    font-size: 1rem;
+}
+#content p a:link, #content p a:visited, #content ul a:link, #content ul a:visited {
+    color: #00FFFF;
+    transition: color 0.1s ease;
+}
+#content p a:hover, #content ul a:hover {color: #FFFFFF}
+#content h2 {
+    font-family: FeatureMono, system-ui;
+    color: #FFFFFF;
+    margin-top: 5vh;
+    font-size: 2rem;
+}
+#content ul {padding-left: 2vw}
 
 
 
+footer {
+    display: flex;
+    color: #00FFFF;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+footer p {
+    font-size: 1.1rem;
+    font-family: FeatureMono, system-ui;
+}
