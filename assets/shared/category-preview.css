@@ -39,16 +39,34 @@
 }
 
 
+#header-placeholder {
+    height: min(12vh, 16vw);
+}
 
 header {
     display: flex;
+    position: fixed;
+    z-index: 1;
     color: #FFFFFF;
     width: 100vw;
+    padding: 2vh 3vw;
+    background: #00606080;
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 20px 20px;
 }
-header img {
-    height: 8vh;
+#nameplate {
+    height: min(8vh, 10vw);
+    image-rendering: pixelated;
 }
-header h1 {
-    font-size: 1.5rem;
-    font-family: Sh1zofont, system-ui;
+header nav img {
+    height: min(4vh, 6vw);
+    margin-left: 1vw;
 }
+header nav {
+    margin-left: auto;
+    align-self: center;
+}
+
+
+
+
