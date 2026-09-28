@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Sh1zofont';
+    src: url(Sh1zofont.otf)
+}
+@font-face {
+    font-family: 'FeatureMono';
+    src: url(FeatureMono.ttf)
+}
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(RobotoMono-Bold.ttf)
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #00FFFF #002222;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {background: #002222}
+::-webkit-scrollbar-thumb {background-color: #00FFFF}
+#backgroundCanvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.divider {
+    height: 2px;
+    background: #9C9C9C;
+    margin: 1vh 5vw 1vh 5vw;
+}
+
+
+
+header {
+    display: flex;
+    color: #FFFFFF;
+    width: 100vw;
+}
+header img {
+    height: 8vh;
+}
+header h1 {
+    font-size: 1.5rem;
+    font-family: Sh1zofont, system-ui;
+}

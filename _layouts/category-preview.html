@@ -21,46 +21,36 @@
     <meta property="og:image" content="{{ page.image | absolute_url }}">
     {% endif %}
 
-    <link rel="stylesheet" href="/assets/shared/pages.css">
+    <link rel="stylesheet" href="/assets/shared/category-preview.css">
     <!-- <script type="module" src="/assets/shared/main.js"></script> -->
     <script type="module" src="/assets/shared/shaderInit.js"></script>
 </head>
 <body>
     <canvas id="backgroundCanvas"></canvas>
 
-    <span id="aside-placeholder"></span>
+    <header>
+        <a href="https://pages.sh1zok.site"><img src="/assets/shared/nameplate.png" alt="Sh1zok's Site" id="nameplate"></a>
+        <h1>{{ page.title }}</h1>
+    </header>
 
-    <aside>
-        <header>
-            <a href="https://pages.sh1zok.site"><img src="/assets/shared/nameplate.png" alt="Sh1zok's Site" id="nameplate"></a>
-        </header>
-        <main>
-            <div id="table-of-contents">
-                {% toc %}
-            </div>
-        </main>
-        <footer>
-            <nav>
-                <a target="_blank" href="https://t.me/Sh1zokWasHere"><img src="/assets/shared/socialLogos/TelegramLogo.png" alt="Telegram"></a>
-                <a target="_blank" href="https://discordapp.com/users/416278117209079809"><img src="/assets/shared/socialLogos/DiscordLogo.png" alt="Discord"></a>
-                <a target="_blank" href="https://github.com/Sh1zok"><img src="/assets/shared/socialLogos/GitHubLogo.png" alt="GitHub"></a>
-                <a target="_blank" href="https://youtube.com/@sh1zok_was_here"><img src="/assets/shared/socialLogos/YouTubeLogo.png" alt="YouTube"></a>
-                <a target="_blank" href="https://namemc.com/profile/Sh1zok"><img src="/assets/shared/socialLogos/NameMCLogo.png" alt="NameMC"></a>
-                <a target="_blank" href="https://modrinth.com/user/Sh1zok"><img src="/assets/shared/socialLogos/ModrinthLogo.png" alt="Modrinth"></a>
-            </nav>
-            <p>© <a id="this-year">2026</a> Sh1zok, MIT License.</p>
-        </footer>
-    </aside>
+    <div class="divider"></div>
 
     <article>
-        <header>
-            <h1>{{ page.title }}</h1>
-            {% for tag in page.tags %}
-            <sup>#{{ tag }}</sup>
-            {% endfor %}
-        </header>
-        <div class="divider"></div>
         <div id="content">{{ content }}</div>
     </article>
+
+    <div class="divider"></div>
+
+    <footer>
+        <nav>
+            <a target="_blank" href="https://t.me/Sh1zokWasHere"><img src="/assets/shared/socialLogos/TelegramLogo.png" alt="Telegram"></a>
+            <a target="_blank" href="https://discordapp.com/users/416278117209079809"><img src="/assets/shared/socialLogos/DiscordLogo.png" alt="Discord"></a>
+            <a target="_blank" href="https://github.com/Sh1zok"><img src="/assets/shared/socialLogos/GitHubLogo.png" alt="GitHub"></a>
+            <a target="_blank" href="https://youtube.com/@sh1zok_was_here"><img src="/assets/shared/socialLogos/YouTubeLogo.png" alt="YouTube"></a>
+            <a target="_blank" href="https://namemc.com/profile/Sh1zok"><img src="/assets/shared/socialLogos/NameMCLogo.png" alt="NameMC"></a>
+            <a target="_blank" href="https://modrinth.com/user/Sh1zok"><img src="/assets/shared/socialLogos/ModrinthLogo.png" alt="Modrinth"></a>
+        </nav>
+        <p>© <a id="this-year">2026</a> Sh1zok, MIT License.</p>
+    </footer>
 </body>
 </html>
