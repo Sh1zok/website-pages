@@ -30,3 +30,7 @@ defaults:
       path: "_posts/tests"
     values:
       category: "tests"
+  - scope:
+      path: "_posts/blockbench-guides"
+    values:
+      category: "blockbench-guides"
